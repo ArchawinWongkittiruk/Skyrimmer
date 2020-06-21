@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class SkyRaider extends Application {
+public class Skyrimmer extends Application {
     Location currentLocation;
     int health;
     int totalValueScore;
@@ -60,9 +60,9 @@ public class SkyRaider extends Application {
         chooseProblem.setOnAction(event -> {
             Window explorer = root.getScene().getWindow();
             FileChooser fileChooser = new FileChooser();
-            fileChooser.setTitle("Pick a SkyRaider PDDL Problem File");
+            fileChooser.setTitle("Pick a Skyrimmer PDDL Problem File");
             fileChooser.getExtensionFilters().addAll(
-                    new FileChooser.ExtensionFilter("SkyRaider PDDL Problem Files", "*.pddl"));
+                    new FileChooser.ExtensionFilter("Skyrimmer PDDL Problem Files", "*.pddl"));
             File file = fileChooser.showOpenDialog(explorer);
             if (file != null ) {
                 try {
