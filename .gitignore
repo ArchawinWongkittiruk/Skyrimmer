@@ -12,3 +12,13 @@
 bin/main/
 
 .classpath
+
+build/
+
+gradle/
+
+.idea/
+
+gradlew
+
+gradlew.bat
